@@ -1,0 +1,18 @@
+svg {
+  position: fixed;
+  bottom:5vh;
+  right: 3vw;
+  color:#65aa61;
+  cursor: pointer;
+}
+
+th,td {
+  min-width: 5vw;
+  text-align: center;
+}
+
+@media (max-width: 599px) {
+th,td {
+  min-width: 13vw;
+}
+}
