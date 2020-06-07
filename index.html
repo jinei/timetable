@@ -23,7 +23,6 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">勤務表</a></li>
         <li><a href="#">アカウント管理</a></li>
-        <li><a href="#">Page 2</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -33,88 +32,157 @@
   </nav>
 
   <main>
-    <table class="table table-striped" border-collapse="collapse">
-      <thead>
 
-        <!-- ********曜日********* -->
-        <tr class="active">
-          <th>Hallstaff</th>
-          <th>月</th>
-          <th>火</th>
-          <th>水</th>
-          <th>木</th>
-          <th>金</th>
-          <th>土</th>
-          <th>日</th>
-          <th>月</th>
-          <th>火</th>
-          <th>水</th>
-          <th>木</th>
-          <th>金</th>
-          <th>土</th>
-          <th>日</th>
-          <th>月</th>
-          <th>火</th>
-          <th>水</th>
-          <th>木</th>
-          <th>金</th>
-          <th>土</th>
-          <th>日</th>
-          <th>月</th>
-          <th>火</th>
-          <th>水</th>
-          <th>木</th>
-          <th>金</th>
-          <th>土</th>
-          <th>日</th>
-          <th>月</th>
-          <th>火</th>
-          <th>Hallstaff</th>
-        </tr>
-        <!-- ********曜日********* -->
+    <div class="selectctrl">
+      <label for="sel1">年月:</label>
+      <select class="form-control">
+        <option>2020/6</option>
+        <option>2020/7</option>
+        <option>2020/8</option>
+        <option>2020/9</option>
+      </select>
+      <label for="sel1">ユーザー:</label>
+      <select class="form-control">
+        <option>全て</option>
+        <option>長野</option>
+        <option>金谷</option>
+        <option>益田</option>
+      </select>
+    </div>
 
-        <!-- ********日付********* -->
-        <tr>
-          <th>6月</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
-          <th>6</th>
-          <th>7</th>
-          <th>8</th>
-          <th>9</th>
-          <th>10</th>
-          <th>11</th>
-          <th>12</th>
-          <th>13</th>
-          <th>14</th>
-          <th>15</th>
-          <th>16</th>
-          <th>17</th>
-          <th>18</th>
-          <th>19</th>
-          <th>20</th>
-          <th>21</th>
-          <th>22</th>
-          <th>23</th>
-          <th>24</th>
-          <th>25</th>
-          <th>26</th>
-          <th>27</th>
-          <th>28</th>
-          <th>29</th>
-          <th>30</th>
-          <th>6月</th>
-        </tr>
-        <!-- ********日付********* -->
-      </thead>
+    <div class="table">
+      <table class="table table-striped" border-collapse="collapse">
+        <thead>
 
-      <tbody>
+          <!-- ********曜日********* -->
+          <tr class="active">
+            <th>Hallstaff</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>Hallstaff</th>
+          </tr>
+          <!-- ********曜日********* -->
 
-        <tr>
-          <td>長野</td>
+          <!-- ********日付********* -->
+          <tr>
+            <th>6月</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+            <th>19</th>
+            <th>20</th>
+            <th>21</th>
+            <th>22</th>
+            <th>23</th>
+            <th>24</th>
+            <th>25</th>
+            <th>26</th>
+            <th>27</th>
+            <th>28</th>
+            <th>29</th>
+            <th>30</th>
+            <th>6月</th>
+          </tr>
+          <!-- ********日付********* -->
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>長野</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">-</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td>長野</td>
+          </tr>
+
+          <td>金谷</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">-</td>
+          <td data-toggle="modal" data-target="#myModal">-</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">-</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">-</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">-</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+          <td data-toggle="modal" data-target="#myModal">-</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
@@ -125,100 +193,52 @@
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td>長野</td>
-        </tr>
-
-        <td>金谷</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">-</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-        <td>金谷</td>
-        </tr>
-
-        <tr>
-          <td>益田</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">-</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
           <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
-          <td>益田</td>
-        </tr>
+          <td>金谷</td>
+          </tr>
 
-      </tbody>
-    </table>
+          <tr>
+            <td>益田</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">-</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td data-toggle="modal" data-target="#myModal">17:00<br>18:00</td>
+            <td>益田</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
   </main>
 
   <!-- Modal -->
